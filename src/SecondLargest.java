@@ -19,7 +19,7 @@ public class SecondLargest {
                                 large2 = large1;
                                 large1 = arr[i];
                         }
-                        else if(arr[i] > large2 && arr[i] != large1){
+                        else if(arr[i] > large2 /*&& arr[i] != large1*/){
                                 large2 = arr[i];
                         }
                 }
