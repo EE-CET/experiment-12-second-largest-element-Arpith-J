@@ -14,7 +14,7 @@ public class SecondLargest {
         public static void secondLargest(int[] arr){
                 int large1=Integer.MIN_VALUE;
                 int large2=Integer.MIN_VALUE;
-                for(int i=0; i<arr.length; i    ++){
+                for(int i=0; i<arr.length; i++){
                         if(arr[i] > large1){
                                 large2 = large1;
                                 large1 = arr[i];
