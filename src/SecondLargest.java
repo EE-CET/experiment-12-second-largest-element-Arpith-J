@@ -12,8 +12,8 @@ public class SecondLargest {
         }
 
         public static void secondLargest(int[] arr){
-                int large1=-1;
-                int large2=-1;
+                int large1=arr[0];
+                int large2=arr[0];
                 for(int i=0; i<arr.length; i++){
                         if(arr[i] > large1){
                                 large2 = large1;
